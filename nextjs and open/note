@@ -1,0 +1,12 @@
+npx create-next-app@latest
+
+npm install three
+
+npm run dev
+
+npm i openbim-components
+npm i three
+npm i bim-fragment
+npm i web-ifc
+
+test

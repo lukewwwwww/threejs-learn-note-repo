@@ -1,0 +1,122 @@
+{
+  "appId": "IBIS",
+  "refId": "",
+  "inspectionId": "6642cb0f357a34e55251bf23",
+  "proberesultId": "665011321aff51789a632ed9",
+  "projectId": "660f6609e66648aa1c7ab54a",
+  "probe": {
+    "id": "663c5d182c5cd658adbe3794",
+    "name": "NUS-003",
+    "title": "Probe 3",
+    "probeStatus": "active",
+    "version": "v1",
+    "checkFileType": ["xmi"],
+    "filesIds": ["663867edb6d9ba3c9546a85d"],
+    "subProbeSequenceIds": ["663c5d1b2c5cd658adbe3797"],
+    "subProbeSequence": [
+      {
+        "id": "663c5d1b2c5cd658adbe3797",
+        "title": "Probe 3.1",
+        "description": "Are the beams within Acceptable Length?",
+        "subProbeStatus": "active",
+        "isDisplay": true,
+        "version": "v1",
+        "isMatchResultsRequired": false,
+        "parameter": [
+          {
+            "id": "663c5d1d2c5cd658adbe379a",
+            "name": "ACCEPTABLE_BEAM_LENGTH_LOWER_THRESHOLD",
+            "value": 1000,
+            "minThreshold": 1000,
+            "maxThreshold": 3000
+          },
+          {
+            "id": "663c5d1f2c5cd658adbe379d",
+            "name": "ACCEPTABLE_BEAM_LENGTH_UPPER_THRESHOLD",
+            "value": 6500,
+            "minThreshold": 3000,
+            "maxThreshold": 12000
+          }
+        ]
+      }
+    ]
+  },
+  "result": {
+    "id": "665011321aff51789a632ed9",
+    "probeId": "663c5d182c5cd658adbe3794",
+    "status": "PASS",
+    "description": "All subprobe checks passed ...",
+    "subProbeResults": [
+      {
+        "id": ".....test test .....",
+        "subProbeId": "663c5d1b2c5cd658adbe3797",
+        "status": "PASS",
+        "description": "all checks passed",
+        "elements": [
+          {
+            "id": "string",
+            "elementId": "2iLvaTS_j0BAlcdZq$$9gE",
+            "fileId": "string",
+            "status": "PASS",
+            "expectedValue": "string",
+            "actualValue": "string",
+            "parameterId": "string",
+            "description": "string",
+            "valueType": "string",
+            "actualValueUnit": null,
+            "expectedValueUnit": null,
+            "markers": [
+              {
+                "name": "marker1",
+                "description": "marker1",
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              {
+                "name": "marker4",
+                "description": "marker4",
+                "x": 4,
+                "y": 4,
+                "z": 4
+              }
+            ]
+          },
+          {
+            "id": "string",
+            "elementId": "2iLvaTS_j0BAlcdZq$$9h3",
+            "fileId": "string",
+            "status": "PASS",
+            "expectedValue": "string",
+            "actualValue": "string",
+            "parameterId": "string",
+            "description": "string",
+            "valueType": "string",
+            "actualValueUnit": null,
+            "expectedValueUnit": null,
+            "markers": [
+              {
+                "name": "marker2",
+                "description": "marker2",
+                "x": 2,
+                "y": 2,
+                "z": 2
+              }
+            ]
+          }
+        ],
+        "markers": [
+          {
+            "name": "marker3",
+            "description": "marker3",
+            "x": 3,
+            "y": 3,
+            "z": 3
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "webhookUrl": "--<testtest>--"
+}

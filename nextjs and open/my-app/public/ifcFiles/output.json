@@ -1,0 +1,485 @@
+{
+    "appId": "LOCAL",
+    "secretKey": "SECRET_KEY",
+    "refId": "test9_aws",
+    "targetFilename": "test0-bim1.json",
+    "sourceFilename": "test0-analysis1.json",
+    "webhookUrl": "http://localhost:3000/webhook",
+    "targetFileId": "123",
+    "sourceFileId": "456",
+    "id": "25dd09d0-9cf7-453b-ab07-a9189158c947",
+    "error": null,
+    "results": {
+      "StructuralCurveMember": [
+        {
+          "targetElement": {
+            "id": "ac57991d-73eb-402c-abe6-9e3d3ff9c128-00055ba6"
+          },
+          "sourceElements": [
+            {
+              "id": "3e94b13f-3a39-47b3-8599-b6a3415f3805",
+              "rank": 0.0
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "ac57991d-73eb-402c-abe6-9e3d3ff9c128-00055beb"
+          },
+          "sourceElements": [
+            {
+              "id": "4d8d9b67-69b6-4618-bb15-ee2bbded3c11",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "ac57991d-73eb-402c-abe6-9e3d3ff9c128-00055d1c"
+          },
+          "sourceElements": [
+            {
+              "id": "2c56453d-51d5-4e59-8c21-41e30e87dfe2",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "ac57991d-73eb-402c-abe6-9e3d3ff9c128-00055e92"
+          },
+          "sourceElements": [
+            {
+              "id": "a7193103-1e7f-4e43-9a12-49417fa4195a",
+              "rank": 0.0
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "ac57991d-73eb-402c-abe6-9e3d3ff9c128-00055eff"
+          },
+          "sourceElements": [
+            {
+              "id": "5a34dc35-3648-4107-a961-158ddedf2059",
+              "rank": 4.547473508864641e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "ac57991d-73eb-402c-abe6-9e3d3ff9c128-00055fb3"
+          },
+          "sourceElements": [
+            {
+              "id": "6d0bf94f-00fe-4411-9b45-b6561c273303",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "ac57991d-73eb-402c-abe6-9e3d3ff9c128-00055fcd"
+          },
+          "sourceElements": [
+            {
+              "id": "2b544c2c-902c-4349-96fb-8177156d533c",
+              "rank": 4.547473508864641e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "ac57991d-73eb-402c-abe6-9e3d3ff9c128-00056005"
+          },
+          "sourceElements": [
+            {
+              "id": "db8bc470-928d-4586-9e7f-772fba04ba6e",
+              "rank": 0.0
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "ac57991d-73eb-402c-abe6-9e3d3ff9c128-0005601b"
+          },
+          "sourceElements": [
+            {
+              "id": "06552894-7f63-4212-99fe-fd5cc4701076",
+              "rank": 2.2737367544323208e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "ac57991d-73eb-402c-abe6-9e3d3ff9c128-00056044"
+          },
+          "sourceElements": [
+            {
+              "id": "fbba00fb-9211-49ea-845f-d0b92eb78c24",
+              "rank": 7.357966700282736e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "ac57991d-73eb-402c-abe6-9e3d3ff9c128-00056080"
+          },
+          "sourceElements": [
+            {
+              "id": "5b63e682-d956-4d42-ba51-2d8d4f528dfc",
+              "rank": 1.016845989170083e-12
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "ac57991d-73eb-402c-abe6-9e3d3ff9c128-000560c3"
+          },
+          "sourceElements": [
+            {
+              "id": "7b8802fc-34a2-4a08-9cb1-6f4b125da8d9",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "ac57991d-73eb-402c-abe6-9e3d3ff9c128-00056110"
+          },
+          "sourceElements": [
+            {
+              "id": "d2139b2a-f500-43c7-a526-8e15e55b2120",
+              "rank": 4.547473508864641e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "4eddb960-5e2a-44a7-b3f5-03ab96796a68-00056717"
+          },
+          "sourceElements": [
+            {
+              "id": "9ccd3a01-c263-4a63-af98-55c1209ac9d6",
+              "rank": 0.0
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "4eddb960-5e2a-44a7-b3f5-03ab96796a68-0005681d"
+          },
+          "sourceElements": [
+            {
+              "id": "099647b1-3caf-42f1-83b1-68f0084bfef8",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "4eddb960-5e2a-44a7-b3f5-03ab96796a68-000569a8"
+          },
+          "sourceElements": [
+            {
+              "id": "be96eabd-32fb-448f-9e52-173825f6dd1e",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "4eddb960-5e2a-44a7-b3f5-03ab96796a68-000569f8"
+          },
+          "sourceElements": [
+            {
+              "id": "a98a8f61-6663-4b23-b33d-0d332b41176b",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "4eddb960-5e2a-44a7-b3f5-03ab96796a68-00056a3e"
+          },
+          "sourceElements": [
+            {
+              "id": "e00423f2-03ae-44cc-bbb8-177d4cec3b91",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "4eddb960-5e2a-44a7-b3f5-03ab96796a68-00056a8c"
+          },
+          "sourceElements": [
+            {
+              "id": "8f61fc98-9ddd-40b9-96b7-3ccc8d34a5a0",
+              "rank": 0.0
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "4eddb960-5e2a-44a7-b3f5-03ab96796a68-00056f7c"
+          },
+          "sourceElements": [
+            {
+              "id": "8aae9575-911a-41b4-8ae4-100076eaf708",
+              "rank": 0.0
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "4eddb960-5e2a-44a7-b3f5-03ab96796a68-00056f9e"
+          },
+          "sourceElements": [
+            {
+              "id": "f4a76cb3-aa15-4adc-b246-39e489973eef",
+              "rank": 4.547473508864641e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "4eddb960-5e2a-44a7-b3f5-03ab96796a68-00056fbe"
+          },
+          "sourceElements": [
+            {
+              "id": "3e5f4fd6-0efc-4bda-9ac1-06ca3518fac8",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "4eddb960-5e2a-44a7-b3f5-03ab96796a68-00056fdb"
+          },
+          "sourceElements": [
+            {
+              "id": "ce93a8b9-afb4-4d8c-9f1f-f7c2430040bb",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "4eddb960-5e2a-44a7-b3f5-03ab96796a68-00057007"
+          },
+          "sourceElements": [
+            {
+              "id": "e4b5a6ee-f65a-4d21-915d-e74af3aa205f",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "4eddb960-5e2a-44a7-b3f5-03ab96796a68-00057022"
+          },
+          "sourceElements": [
+            {
+              "id": "cd2a9b56-2991-49cf-9d9a-e8fa1e203848",
+              "rank": 4.547473508864641e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "4eddb960-5e2a-44a7-b3f5-03ab96796a68-00057066"
+          },
+          "sourceElements": [
+            {
+              "id": "943540b9-62e3-4942-9786-283995872872",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "43d19a2b-271d-45b2-876a-1001e16a47fa-000579e8"
+          },
+          "sourceElements": [
+            {
+              "id": "50bfdc0a-950f-444e-be57-46be199390ff",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "43d19a2b-271d-45b2-876a-1001e16a47fa-00057a1f"
+          },
+          "sourceElements": [
+            {
+              "id": "5e87344b-88ec-407a-b5e4-48a5b476969b",
+              "rank": 4.547473508864641e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "43d19a2b-271d-45b2-876a-1001e16a47fa-00057ae1"
+          },
+          "sourceElements": [
+            {
+              "id": "5157946a-4eec-4e88-9a91-6be3cafc3f33",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "43d19a2b-271d-45b2-876a-1001e16a47fa-00057ae3"
+          },
+          "sourceElements": [
+            {
+              "id": "b6dcc582-5ba1-4e15-9d1b-867fd49d8158",
+              "rank": 4.547473508864641e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "43d19a2b-271d-45b2-876a-1001e16a47fa-00057b12"
+          },
+          "sourceElements": [
+            {
+              "id": "aff39e70-9ac2-459b-9a0a-a9dbca727781",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "43d19a2b-271d-45b2-876a-1001e16a47fa-00057b65"
+          },
+          "sourceElements": []
+        },
+        {
+          "targetElement": {
+            "id": "43d19a2b-271d-45b2-876a-1001e16a47fa-00057b81"
+          },
+          "sourceElements": []
+        },
+        {
+          "targetElement": {
+            "id": "43d19a2b-271d-45b2-876a-1001e16a47fa-00057ba0"
+          },
+          "sourceElements": []
+        },
+        {
+          "targetElement": {
+            "id": "3f8895a2-c05a-419c-9ce0-9953439da401-00057ca9"
+          },
+          "sourceElements": [
+            {
+              "id": "98458640-2900-42c0-9f46-155cbd2f862f",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "3f8895a2-c05a-419c-9ce0-9953439da401-00057d2e"
+          },
+          "sourceElements": [
+            {
+              "id": "fed7f042-f7bf-4e97-b947-f5a52d056c6e",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        }
+      ],
+      "StructuralSurfaceMember": [
+        {
+          "targetElement": {
+            "id": "ac57991d-73eb-402c-abe6-9e3d3ff9c128-00055d91"
+          },
+          "sourceElements": [
+            {
+              "id": "ad18c954-1a86-4692-be66-c67cd16c0ad2",
+              "rank": 9.094947017729282e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "ac57991d-73eb-402c-abe6-9e3d3ff9c128-00055e0f"
+          },
+          "sourceElements": [
+            {
+              "id": "e8dd8832-19a0-45cf-a5d8-76d5c37b84db",
+              "rank": 9.631703454715057e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "ac57991d-73eb-402c-abe6-9e3d3ff9c128-00055e57"
+          },
+          "sourceElements": [
+            {
+              "id": "ea36de39-d109-4f26-b685-9a1e542638fc",
+              "rank": 9.631703454715057e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "ac57991d-73eb-402c-abe6-9e3d3ff9c128-00056129"
+          },
+          "sourceElements": []
+        },
+        {
+          "targetElement": {
+            "id": "3f8895a2-c05a-419c-9ce0-9953439da401-00057d73"
+          },
+          "sourceElements": [
+            {
+              "id": "b2cbcce3-69ea-4038-b5c5-2dbf1593ca68",
+              "rank": 9.631703454715057e-13
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "3f8895a2-c05a-419c-9ce0-9953439da401-00057ddf"
+          },
+          "sourceElements": [
+            {
+              "id": "8a9f26e3-bfaa-4831-8d33-b675bc492cfa",
+              "rank": 62.50000000000048
+            }
+          ]
+        },
+        {
+          "targetElement": {
+            "id": "09e72d55-7c13-4b80-983c-332b098a5729-00057fac"
+          },
+          "sourceElements": []
+        },
+        {
+          "targetElement": {
+            "id": "09e72d55-7c13-4b80-983c-332b098a5729-00057ff9"
+          },
+          "sourceElements": []
+        }
+      ],
+      "statistics": {
+        "StructuralCurveMember": {
+          "Total Checked": 36,
+          "Total Matched": 33,
+          "Total Not Matched": 3
+        },
+        "StructuralSurfaceMember": {
+          "Total Checked": 8,
+          "Total Matched": 5,
+          "Total Not Matched": 3
+        }
+      }
+    },
+    "matchAnalysisStatus": "MATCH_ANALYSIS_COMPLETED"
+  }

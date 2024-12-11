@@ -1,0 +1,14 @@
+npm i openbim-components
+npm i three
+npm i bim-fragment
+npm i web-ifc
+
+1.create a new components
+2.use Ui components
+3.create a new tools
+    updataable
+    disposable
+4.conventions
+    event always readonly
+    private props start with _
+    

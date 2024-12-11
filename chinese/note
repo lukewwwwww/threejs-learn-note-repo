@@ -1,0 +1,58 @@
+npm init vite@latest
+npm install
+npm install three
+npm run dev || npx vite
+
+学习路径
+1.three.js
+2.PBR
+3.着色器语言
+4.GPU渲染
+5.three.js底层封装
+6.后期合成效果
+7.css3d
+8.blender
+
+章节知识
+01-basic
+02-vue
+03-react
+04-
+  axesHelper
+  OrbitControls
+05-
+  cube position
+  cube+parentcube
+
+06-
+  cube scale,局部缩放,相对于父元素缩放
+  cube rotation,局部旋转,相对于父元素旋转
+
+07-
+  窗口变化更新平面
+  全屏与退出全屏
+
+08-
+  gui
+    add name 
+    folder addcolor
+    onchange onfinishchange
+  线框模式
+
+09-buffergeometory
+  indices vertices
+
+10-常见几何体
+  BoxGeometry(长,宽,高,widthSegment,heightSegment,depthSegment)
+  CircleGeometry(半径,几个,起始角度,结束角度)
+  ConeGeometry(半径,高度,radiusSegment,heightSegment,是否底边,起始角度,结束角度)
+  CylinderGeometry(上,下,高,几个,几个,是否底边,起始角度,结束角度)
+  DodecahedronGeometry
+  EdgesGeometry
+  PlaneGeometry
+  RingGeometry
+  SphereGeometry
+
+11-网格材质
+
+

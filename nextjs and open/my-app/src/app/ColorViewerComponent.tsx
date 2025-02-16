@@ -78,35 +78,28 @@ export default function ColorViewerComponent({
   }
 
   async function getExpressId(model: FragmentsGroup, idList: IfcGUIDData[]) {
-    const IdMapList: FRAGS.FragmentIdMap[] = [];
+    const expressIds: number[] = [];
+    const fragmentIdMapResult: FRAGS.FragmentIdMap = {};
+
     for (const data of idList) {
       const item: any = await OBC.IfcPropertiesUtils.findItemByGuid(
         model,
         data.elementId
       );
-
-      // console.log("Item", item);
       if (item) {
-        const expressId = item.expressID as number;
-        // console.log("ExpressId", expressId);
-
-        const fragmentMapFound = model.getFragmentMap([expressId]);
-
-        const fragmentIdMapResult: FRAGS.FragmentIdMap = {};
-
-        for (const fragmentId in fragmentMapFound) {
-          const expressIds = new Set<number>();
-          const expressIdsInNumber = fragmentMapFound[fragmentId];
-          for (const expressIdInNumber of expressIdsInNumber) {
-            expressIds.add(expressIdInNumber);
-          }
-          fragmentIdMapResult[fragmentId] = expressIds;
-        }
-
-        IdMapList.push(fragmentIdMapResult);
+        expressIds.push(item.expressID as number);
       }
     }
-    return IdMapList;
+
+    const fragmentMapFound = model.getFragmentMap(expressIds);
+
+    for (const fragmentId in fragmentMapFound) {
+      fragmentIdMapResult[fragmentId] = new Set<number>(
+        fragmentMapFound[fragmentId]
+      );
+    }
+
+    return fragmentIdMapResult;
   }
 
   function enableClassifier(
@@ -118,14 +111,12 @@ export default function ColorViewerComponent({
     const passedColor = new THREE.Color("#43E71B");
 
     const failedColor = new THREE.Color("#E73F1B");
-    getExpressId(model, ifcGUIDList).then((fragmentIdMapResults) => {
-      for (let fragmentIdMapResult of fragmentIdMapResults) {
-        if (fragmentIdMapResult) {
-          if (status) {
-            classifier.setColor(fragmentIdMapResult, passedColor, true);
-          } else {
-            classifier.setColor(fragmentIdMapResult, failedColor, true);
-          }
+    getExpressId(model, ifcGUIDList).then((fragmentIdMapResult) => {
+      if (fragmentIdMapResult) {
+        if (status) {
+          classifier.setColor(fragmentIdMapResult, passedColor, true);
+        } else {
+          classifier.setColor(fragmentIdMapResult, failedColor, true);
         }
       }
     });

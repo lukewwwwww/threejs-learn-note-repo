@@ -32,7 +32,7 @@ const pathGroupForMarker: PathGroup[] = [
 ];
 export default function Home() {
   let viewMode = "color";
-  viewMode = "marker";
+  // viewMode = "marker";
   return (
     <>
       {viewMode === "color" ? (
